@@ -17,13 +17,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-SPECIALLY THANKS FOR FOLLOWING CONTRIBUTORS WHO PROVIDED ICONS/IMAGES AND OTHER 
-RESOURCES I HAVE USED.
-
-https://www.youtube.com/channel/UCk7xIEmd3MeyhIu2StLX5yA
-https://dribbble.com/shots/1970346-Major-websites-Icon-Set-Free-Sketch
-https://iconscout.com/
-https://iconscout.com/contributors/alexis-doreau
-https://iconscout.com/contributors/stonehub
-https://iconscout.com/contributors/unicons

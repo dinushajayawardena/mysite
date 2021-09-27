@@ -1,15 +1,15 @@
 {
-  "name": " ",
-  "version": "0.0.1",
-  "description": "",
-  "keywords": "",
-  "license": "",
-  "author": "",
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "This is the implementation of personal web site for Dinusha Gayan Jayawardena",
+  "keywords": ["Dinusha Jayawardena", "My personal site", "HTML5"],
+  "license": "MIT",
+  "author": "Dinusha Gayan Jayawardena<dinusha.g.jayawardena@gmail.com>",
   "scripts": {
-    "build": "parcel build index.html",
+    "clean": "rm -rf docs",
+    "build": "parcel build index.html 404.html --out-dir docs --public-url /mysite/",
     "dev": "parcel index.html --open",
-    "start": "npm run build && npm run dev",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run build && npm run dev"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.4"
