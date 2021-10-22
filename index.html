@@ -15,7 +15,6 @@
         <link rel="manifest" href="site.webmanifest">
         <link
         rel="apple-touch-icon" href="icon.png">
-        <!-- Place favicon.ico in the root directory -->
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
 
@@ -23,6 +22,7 @@
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/form-style.css">
         <script src="node_modules/jquery/dist/jquery.min.js"></script>
         <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
@@ -32,23 +32,22 @@
     <body>
 
         <header class="header">
-            <div
-                class="header__container" id="header-logo">
-                <!-- logo goes here -->
-                <a href="#">Dinusha<span class="header-logo-charc">J.</span>
-                </a>
+            <div class="primary-header" id="header-logo">
+                <div class="logo">
+                    <a href="#">Dinusha<span class="header-logo-charc">J.</span></a>
+                </div>
+                <div class="menu-hamburger hamburger__pos">
+                    <i class="fas fa-bars"></i>
+                </div>
             </div>
 
-            <div class="header__container" id="header-menu">
-                <menu class="header__container-menu">
+            <div class="secondary-header" id="header-menu">
+                <menu class="secondary-header-menu">
                     <li class="menu-item nav-item">Home</li>
                     <li class="menu-item nav-item">About</li>
                     <li class="menu-item nav-item">Portfolio</li>
                     <li class="menu-item nav-item">Projects</li>
                     <li class="menu-item nav-item">Contact</li>
-                    <div class="menu-hamburger hamburger__pos">
-                        <i class="fas fa-bars"></i>
-                    </div>
                 </menu>
             </div>
         </header>
@@ -86,14 +85,21 @@
                                         <span class="cl-white-text">&CenterDot;</span>
                                     </div>
                                     <div class="story--desc cl-white-text">
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur assumenda, aspernatur totam ex eveniet quae tenetur minus voluptas nesciunt aperiam nostrum excepturi incidunt repellat, enim veritatis dolorum sunt laborum eius.
-                                                                                                                        Quisquam veniam, cumque odit expedita labore vel quidem animi, distinctio sapiente vero autem quos totam nulla adipisci aliquam rem praesentium consequatur? Quibusdam quae pariatur ratione optio, laborum quam unde sed.
-                                                                                                                        Perferendis sapiente necessitatibus id repellat delectus rem. Ipsam saepe, sapiente neque a molestiae dicta rerum velit voluptatibus nam provident omnis. Veritatis earum hic enim consequatur quae quod, harum praesentium beatae.
-                                                                                                                        Sed, sequi sint. Expedita quo quisquam sequi! Cupiditate similique laboriosam, numquam nesciunt error quidem quae voluptas placeat tempore! Perferendis numquam sequi dolorem tempore esse in assumenda autem incidunt asperiores beatae!
-                                                                                                                        Maiores laborum amet consectetur ad dolores animi esse nisi quasi iusto molestias deserunt qui nobis, iste architecto reprehenderit! Amet similique provident adipisci obcaecati, et nemo aliquid dolores. Amet, ad minus.
-                                                                                                                        Eligendi nam ullam quisquam soluta voluptas repellat blanditiis totam ea magnam aspernatur, ratione molestias iste libero exercitationem quos vitae officiis numquam dolorem rem, sapiente earum maxime alias fugit consequatur. Inventore.
-                                                                                                                        Nisi ex mollitia eveniet fugiat aliquam adipisci possimus sit hic dolorem, a et voluptatum expedita doloremque in, quo nostrum nihil nam nemo recusandae consequuntur quibusdam maxime incidunt at. Ad, voluptates.
-                                                                                                                                                                                                                      Fugit beatae voluptas necessitatibus. Culpa, aut veniam excepturi laudantium est voluptates? Repellat omnis velit eligendi eveniet, animi harum adipisci numquam aperiam tenetur saepe commodi rem deleniti, reprehenderit nobis alias nostrum.
+                                        <p>Dinusha Gayan Jayawardena is an individual who is passionate about in computer programming, 3d modeling and animation. 
+                                            He has completed his studies in Information technology sector and currently a freelancer and full stack developer (Trainee) 
+                                            at <a id="story_links" href="https://ijse.lk" target="_blank">Java Software Engineering (pvt) Ltd Sri Lanka</a>. He completed his Degree in University of kelaniya, Sri Lanka under the department 
+                                            of <a class="story_links"  href="https://science.kln.ac.lk/depts/im/" target="_blank">Industrial Managament</a> with Second class. Also He was a talanted student in his school <a class="story_links"  href="https://bcg.lk/" target="_blank">Bandaranayake college</a>, Gampaha, Sri Lanka.
+                                        </p>
+                                        <p>He is a good self-learner and there are few times he had proved it. He has done his internship as an undergraduate at <a class="story_links"  href="https://www.attuneconsulting.com/" target="_blank">
+                                            attune consulting(pvt) Ltd</a> for 6 months and worked there as a SAP-ABAP Technical trainee. Then he had continued his studies in the university and after completing it, 
+                                            he joined a leading Game developing complany in the country, <a class="story_links"  href="http://prodigi.lk/">Prodigi Interactive (pvt) Ltd</a>. In there he got the oppurtunity to lead the HTML5 Game 
+                                            Developement team and gave his utmost talent to upbring the company status. He was the main game developer of a trending gaming app <a class="story_links"  href="https://play.google.com/store/apps/details?id=com.megaplay" target="_blank">"MagePlay"</a>. 
+                                            After few months he decided to change his carrer path into full stack developer and then join Java Software Engineering (pvt) Ltd to get train. 
+                                            Now he is looking for a company which he can apply his knowledge and climb his career ladder. He is very commitment to hard work and have a great 
+                                            practise in meeting deadlines. Apart from that his communication level is moderate and manageble.
+                                        </p>
+                                        <p>As a hobby, He self-learned and practised 3d modeling and animation for more than 5 years. With the expertise he has given his service for few 
+                                            local customers and few foreign clients. Currenly he spend his free time by giving services in 3d modeling as a freelancer.</p>
                                     </div>
                                     <div class="btn-cv-download">
                                         <a href="">Download My CV</a>
@@ -107,27 +113,145 @@
         </section>
         <div class="portfolio-container">
             <div class="portfolio-container__3dmod">
-                <div class="article__figure">
+                <div class="article__story" style="border: 1px solid white;" >
                     <div class="story--desc cl-white-text">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur assumenda, aspernatur totam ex eveniet quae tenetur minus voluptas nesciunt aperiam nostrum excepturi incidunt repellat, enim veritatis dolorum sunt laborum eius.
-                                                                                                                                        Quisquam veniam, cumque odit expedita labore vel quidem animi, distinctio sapiente vero autem quos totam nulla adipisci aliquam rem praesentium consequatur? Quibusdam quae pariatur ratione optio, laborum quam unde sed.
-                                                                                                                                        Perferendis sapiente necessitatibus id repellat delectus rem. Ipsam saepe, sapiente neque a molestiae dicta rerum velit voluptatibus nam provident omnis. Veritatis earum hic enim consequatur quae quod, harum praesentium beatae.
-                                                                                                                                        Sed, sequi sint. Expedita quo quisquam sequi! Cupiditate similique laboriosam, numquam nesciunt error quidem quae voluptas placeat tempore! Perferendis numquam sequi dolorem tempore esse in assumenda autem incidunt asperiores beatae!
-                                                                                                                                        Maiores laborum amet consectetur ad dolores animi esse nisi quasi iusto molestias deserunt qui nobis, iste architecto reprehenderit! Amet similique provident adipisci obcaecati, et nemo aliquid dolores. Amet, ad minus.
+                        <p>
+                            Dinusha Gayan Jayawardena have a habit of trying new things from his childhood. As a result of that he has got the passion of creating objects 
+                            in a virtual environment. Later on he did some research on this and he started to learn 3d modeling by himself during the free time. After few 
+                            years back he got the oppertunity to show up his talent in creative designing inside the university by creating a "Hologram". 
+                        </p>
+                        <p>
+                            Not only that he could get the chance to handle few more events as a technical guy and his talent was brushup with the time. Now he continue 
+                            his work as a 3d modeler and animator as a freelancer. Within the past few years he has given his creativity do some <a href="https://www.youtube.com/watch?v=03NkCgmnu2A" target="_blank">
+                                promotional campaigns
+                                for a leading Tyre Manufacturing company
+                            </a> in sri lanka as well as some of other local client.
+                        </p>
+                        <p>
+                            Apart from that he got the opprtunity to give his service to a USA client for few more times in the year 2020. Now he is focusing on 
+                            his 3d modeling talent to re-create real world automobiles and his ultimate goal is designing and modelling his own International standard concept vehicles.
+                        </p>
                     </div>
                 </div>
-                <div class="article__story">
+                <div class="article__figure" >
                     <h2 class="story-heading cl-white-text">3d Modeling and Animation</h2>
-                    <img class="mod-figure" src="img/tesla.jpg" alt="">
+                    <div class="mod-figure">
+                        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active" data-bs-interval="5000">
+                                <img src="img/mod-koenigsegg.jpg" class="d-block w-100" alt="koenigsegg agera 3d model">
+                              </div>
+                              <div class="carousel-item" data-bs-interval="5000">
+                                <img src="img/mod-escalade.jpg" class="d-block w-100" alt="Caddilac escalade 3d model">
+                              </div>
+                              <div class="carousel-item" data-bs-interval="5000">
+                                <img src="img/mod-tesla.jpg" class="d-block w-100" alt="Tesla 3d model">
+                              </div>
+                              <div class="carousel-item" data-bs-interval="5000">
+                                <img src="img/mod-amg.jpg" class="d-block w-100" alt="Mercedes AMG 3d model">
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                    </div>
                 </div>
             </div>
             <div class="portfolio-container__programming">
-                <div class="article__story">
+                <div class="article__story" >
                     <h2 class="story-heading cl-white-text">Programming</h2>
+                    <div class="coding-figure">
+                        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active" data-bs-interval="5000">
+                                <img src="img/mod-koenigsegg.jpg" class="d-block w-100" alt="koenigsegg agera 3d model">
+                              </div>
+                              <div class="carousel-item" data-bs-interval="5000">
+                                <img src="img/mod-escalade.jpg" class="d-block w-100" alt="Caddilac escalade 3d model">
+                              </div>
+                              <div class="carousel-item" data-bs-interval="5000">
+                                <img src="img/mod-tesla.jpg" class="d-block w-100" alt="Tesla 3d model">
+                              </div>
+                              <div class="carousel-item" data-bs-interval="5000">
+                                <img src="img/mod-amg.jpg" class="d-block w-100" alt="Mercedes AMG 3d model">
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                    </div>
                 </div>
-                <div class="article__figure"></div>
+                <div class="article__figure" style="border: 1px solid white;">
+                    <div class="story--desc cl-white-text">
+                        <p>
+                            Because of the interest Dinusha Continue his educational path in Mathematics stream and lucky to select for a IT sector 
+                            degree "Management and Information Technology" in University of Kelaniya. He got the passion of coding when he had to 
+                            create a project in his univeristy life. He decided to create a simulation based first person 3d game as the project. 
+                            During the University period he could get a chance to work in industry as a leading SAP Consulting company, based on Sri Lanka 
+                            as a ABAP Programmer.
+                        </p>
+                        <p>
+                            After completion of the internship he joined a leading game designing company and worked for a half year as a leading game developer. 
+                            By working there he got the expereince in full stack development, therefore he decided to resign from the job and start learning 
+                            programming again. Later on he joined a company which gives training experience in Java and Full stack development. Now He is working and learning there.
+                        </p>
+                        <p>
+                            His goal in programming is to be a leading programmer in the field and be creative.
+                        </p>
+                    </div>
+                </div>
             </div>
+            <div class="portfolio-container__3dmod">
+                <div class="article__story" style="border: 1px solid white;" >
+                    <div class="story--desc cl-white-text override-story--desc">
+                        <h2 class="story-heading cl-white-text override-story--heading">Send me a message</h2>
+                        <form action="POST">
+                            <div class="form-container">
+                                <div class="form-left">
+                                    <div class="form-group">
+                                        <input type="text" name="txtName" class="form-control" placeholder="Your Name *" value="" />
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" name="txtEmail" class="form-control" placeholder="Your Email *" value="" />
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" name="txtPhone" class="form-control" placeholder="Your Phone Number *" value="" />
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="button" name="btnSubmit" class="btnContact" value="Send Message" />
+                                    </div>
+                                </div>
+                                <div class="form-right">
+                                    <div class="form-group">
+                                        <textarea name="txtMsg" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="article__story" >
+                    <h2 class="story-heading cl-white-text">Find me on Youtube</h2>
+                    <div class="mod-figure">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/eF1rsKGls2w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                        </iframe>
+                </div>
+            </div>
+           
         </div>
+
 
         <footer>
             <div class="footer-container">
@@ -138,7 +262,7 @@
                         <div class="left-container-links-wrapper">
                             <ul>
                                 <div class="sm-container-box">
-                                    <a href="https://www.linkedin.com/in/dinusha-gayan-jayawardena/">
+                                    <a href="https://www.linkedin.com/in/dinusha-gayan-jayawardena" target="_blank">
                                         <li class="footer-item-icon">
                                             <img src="img/linkedin.svg" alt="github-logo">
                                             <span>Linkedin</span>
@@ -146,7 +270,7 @@
                                     </a>
                                 </div>
                                 <div class="sm-container-box">
-                                    <a href="https://github.com/dinushajayawardena">
+                                    <a href="https://github.com/dinushajayawardena" target="_blank">
                                         <li class="footer-item-icon">
                                             <img src="img/github-logo.svg" alt="github-logo">
                                             <span>Github</span>
@@ -154,7 +278,7 @@
                                     </a>
                                 </div>
                                 <div class="sm-container-box">
-                                    <a href="https://twitter.com/me_dinusha">
+                                    <a href="https://twitter.com/me_dinusha" target="_blank">
                                         <li class="footer-item-icon">
                                             <img src="img/twitter.svg" alt="github-logo">
                                             <span>Twitter</span>
@@ -162,7 +286,7 @@
                                     </a>
                                 </div>
                                 <div class="sm-container-box">
-                                    <a href="https://www.artstation.com/jaya_dinu">
+                                    <a href="https://www.artstation.com/jaya_dinu" target="_blank">
                                         <li class="footer-item-icon">
                                             <img src="img/artstation.svg" alt="github-logo">
                                             <span>Artstation</span>
@@ -170,7 +294,7 @@
                                     </a>
                                 </div>
                                 <div class="sm-container-box">
-                                    <a href="https://www.facebook.com/DinushaGayanJayawardena">
+                                    <a href="https://www.facebook.com/DinushaGayanJayawardena" target="_blank">
                                         <li class="footer-item-icon">
                                             <img src="img/facebook.svg" alt="github-logo">
                                             <span>Facebook</span>
@@ -178,7 +302,7 @@
                                     </a>
                                 </div>
                                 <li class="footer-item-icon">
-                                    <img src="img/instagram.svg" alt="github-logo">
+                                    <img src="img/instagram.svg" alt="github-logo" target="_blank">
                                     <span>Instagram</span>
                                 </li>
 
@@ -190,11 +314,13 @@
             </div>
         </footer>
 
-
-        <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
-        <script src="js/script.js"></script>
+        <script type="module" src="js/plugins.js"></script>
+        <script type="module" src="js/main.js"></script>
+        <script type="module" src="js/script.js"></script>
+        <script type="module" src="ts/navigator.ts"></script>
+        <script type="module" src="node_modules/bootstrap/js/dist/carousel.js"></script>
+        <script type="module" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script type="module" src="node_modules/jquery/dist/jquery.min.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
         <script>
@@ -208,6 +334,7 @@
             ga('set', 'transport', 'beacon');
             ga('send', 'pageview')
         </script>
+        
         <script src="https://www.google-analytics.com/analytics.js" async></script>
     </body>
 

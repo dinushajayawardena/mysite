@@ -1,0 +1,25 @@
+.override-story--desc{
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+.form-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.form-group{
+    padding-bottom: 30px;
+    width: 100%;
+    margin: 0 2%;
+}
+
+.form-control{
+    width: 100%;
+}
+
+.override-story--heading{
+    margin-bottom: 20px;
+}

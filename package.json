@@ -1,29 +1,22 @@
 {
-  "name": "personal-website",
+  "name": "my-site",
   "version": "1.0.0",
-  "description": "This is the implementation of personal web site for Dinusha Gayan Jayawardena",
-  "keywords": [
-    "Dinusha Jayawardena",
-    "My personal site",
-    "HTML5"
-  ],
-  "license": "MIT",
-  "author": "Dinusha Gayan Jayawardena<dinusha.g.jayawardena@gmail.com>",
   "scripts": {
-    "clean": "rm -rf ./docs",
-    "dev": "parcel serve index.html --out-dir ./docs",
-    "start": "parcel serve index.html 404.html --dist-dir docs",
-    "build": "npm run clean && parcel index.html 404.html --public-url /mysite/"
+    "start": "parcel index.html",
+    "build": "parcel build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.0.0",
+    "typescript": "^4.4.4"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.4",
-    "animate.css": "^4.1.1",
-    "bootstrap": "^5.1.1",
+    "@types/jquery": "^3.5.7",
+    "bootstrap": "^5.1.3",
+    "fontawesome": "^5.6.3",
     "jquery": "^3.6.0"
-  },
-  "devDependencies": {
-    "@parcel/packager-raw-url": "^2.0.0",
-    "@parcel/transformer-webmanifest": "^2.0.0",
-    "parcel": "^2.0.0"
   }
 }
