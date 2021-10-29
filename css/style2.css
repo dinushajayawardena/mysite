@@ -340,7 +340,9 @@ a:hover{
     color: var(--text-theme-color);
 }
 
-
+.form-item{
+    margin-top: 10px;
+}
 
 
 
