@@ -1,3 +1,5 @@
+import $ from 'jquery';
+
 //animated header
 $(function() {
     $(window).scroll(function() {

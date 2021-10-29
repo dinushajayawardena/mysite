@@ -13,6 +13,11 @@
     --cl-darkgray:  rgb(37, 37, 37);
 }
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     background-color: var(--cl-darkgray);
 }
@@ -28,6 +33,7 @@ body{
     align-items: center;
     width: 100%;
     transition: all 0.3s ease;
+    background-color: var(--cl-darkgray);
 }
 
 .sticky{
@@ -84,6 +90,8 @@ body{
 
 .secondary-header{
     width: 100%;
+    
+    
 }
 
 .secondary-header-menu{
@@ -117,6 +125,7 @@ body{
     font-weight: 400;
     color: var(--text-cl-orange);
     background-color: var(--cl-darkgray);
+    border: 1px solid transparent;
 }
 
 .menu-item:hover{
@@ -146,23 +155,24 @@ body{
 
 .home .max-width{
     color: white;
-    margin: auto 0 auto 40px;
-    margin-left: 100px;
+    margin: auto 0 auto 50%;
+    transform: translateX(-50%);
+    margin-bottom: 120px;
     font-family: 'Ubuntu', sans-serif;
     transition: 0.2s ease-in;
 }
 
 .home .home-content .text-1{
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .home .home-content .text-2{
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 600;
 }
 
 .home .home-content .text-3{
-    font-size: 3rem;
+    font-size: 1.5rem;
 }
 
 .home .home-content .text-3 span{
