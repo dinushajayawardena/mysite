@@ -376,18 +376,20 @@ a:hover{
         transform: translateX(-50%);
     }
 
+    .home .max-width{
+
+        margin-left: 5%;
+        margin-bottom: 5%;
+    }
+
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 
     .home .max-width{
-        
-        margin: auto;
-        margin-left: 5%;
-        margin-bottom: 5%;
-        font-family: 'Ubuntu', sans-serif;
-        transition: 0.2s ease-in;
+
+        transition: cubic-bezier(0.075, 0.82, 0.165, 1) 500ms;
     }
 
     .home .home-content .text-1{
@@ -396,7 +398,6 @@ a:hover{
     
     .home .home-content .text-2{
         font-size: 4rem;
-        font-weight: 600;
     }
     
     .home .home-content .text-3{
