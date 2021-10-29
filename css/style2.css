@@ -40,7 +40,7 @@ body{
 }
 
 .sticky{
-    height: 7rem;
+    height: 5rem;
     background-color: var(--cl-darkgray);
     z-index: 9999;
 }
@@ -109,6 +109,7 @@ body{
 .secondary-header menu li{  
     text-align: center;
     padding: 20px 0 20px 0;
+    transition: all 0.3s ease;
 }
 
 
@@ -162,7 +163,6 @@ body{
 .home .max-width{
     color: white;
     margin: auto;
-    /* transform: translateX(-70%); */
     margin-bottom: 10%;
     font-family: 'Ubuntu', sans-serif;
     transition: 0.2s ease-in;
@@ -223,7 +223,10 @@ body{
 .aboutme{
     position: relative;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
 }
+
 
 .story--header-wrapper{
     display: flex;
@@ -345,14 +348,6 @@ a:hover{
 }
 
 
-
-
-
-
-
-
-
-
 /*  Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
     
@@ -361,10 +356,53 @@ a:hover{
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
+    .sticky{
+        height: 6rem;
+    }
+
+    .form-item{
+        width: 717px;
+    }
+
+    .form-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .carousel-figures{
+        width: 717px;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+
+    .home .max-width{
+        
+        margin: auto;
+        margin-left: 5%;
+        margin-bottom: 5%;
+        font-family: 'Ubuntu', sans-serif;
+        transition: 0.2s ease-in;
+    }
+
+    .home .home-content .text-1{
+        font-size: 3rem;
+    }
+    
+    .home .home-content .text-2{
+        font-size: 4rem;
+        font-weight: 600;
+    }
+    
+    .home .home-content .text-3{
+        font-size: 3rem;
+    }
+    
 
 }
 
