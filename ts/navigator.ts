@@ -42,9 +42,6 @@ $('.hamburger-wrapper').on('click', ()=>{
 
 $(window).resize(function(){
     docWidth = $( window ).width()!;
-
-   
-    
     
     if(docWidth > 992){
 

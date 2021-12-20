@@ -2,13 +2,16 @@
   "name": "my-site",
   "version": "1.0.0",
   "scripts": {
+    "clean": "rm -r dist",
     "start": "parcel index.html",
-    "build": "parcel build"
+    "build": "parcel build index.html"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "cssnano": "^5.0.13",
+    "postcss": "^8.4.5",
     "typescript": "^4.4.4"
   },
   "dependencies": {
