@@ -1,5 +1,7 @@
 import $ from 'jquery';
 
+console.log("Working");
+
 //animated header
 $(function() {
     $(window).scroll(function() {
